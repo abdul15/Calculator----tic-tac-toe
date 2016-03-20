@@ -1,0 +1,16 @@
+operator=  input("\n\t\tWhat do you want to do?\n\t\t1.Addition (+)\n\t\t2.Subtraction(-)\n\t\t3.Multiplication(*)\n\t\t4.Division(/)\n\nEnter your choice : ")
+while operator > int(4) or operator < int(1) :
+	operator=  input("\n\t\t1.Addition (+)\n\t\t2.Subtraction(-)\n\t\t3.Multiplication(*)\n\t\t4.Division(/)\n\nInvalid choice!Please enter a valid choice : ")
+value1=input("\t\tEnter first number:")
+
+value2=input("\n\t\tEnter second number:")
+
+if operator== int(1) :
+	Result=value1+value2
+elif operator== int(2):
+	Result=value1-value2
+elif operator== int(3) :
+	Result=value1*value2
+elif operator== int (4) :
+	Result=value1/value2
+print "\n\t\tResult : ", Result
